@@ -1,4 +1,4 @@
-![screenshot](screenshot.jpg "screenshot")
+![screenshot](gif.gif)
 
 ## Development
 * `npm i` to install dependencies

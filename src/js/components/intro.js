@@ -125,7 +125,7 @@ const tween = TweenMax.to(obj, 0.5,
   }
 );
 
-const imagesScene = new ScrollMagic.Scene({triggerElement: ".intro__trigger", duration: "500%"})
+const imagesScene = new ScrollMagic.Scene({triggerElement: ".intro__trigger", duration: "750%"})
 .setTween(tween)
 .addTo(controller);
 

@@ -10,10 +10,10 @@
 .intro__container {
     background: rgba(0,0,0,.2);
     height: 100%;
-    width: 100%;
+    width: 0;
     position: relative;
   @include bp(medium) {
-    width: 50%;
+    width: 0;
     background: white;
   }
 }
@@ -29,7 +29,7 @@
   color: white;
   height: 100vh;
   @include bp(medium) {
-    color: $base;
+    color: white;
   }
 }
 
@@ -48,7 +48,7 @@
   position: fixed;
   height: 100vh;
   @include bp(medium) {
-    width: 50%;
+    width: 100%;
     top: 0;
     right: 0;
     bottom: 0;

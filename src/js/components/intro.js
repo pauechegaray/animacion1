@@ -22,7 +22,17 @@ const images = [
   "intro__image--11",
   "intro__image--12",
   "intro__image--13",
-  "intro__image--14"
+  "intro__image--14",
+  "intro__image--15",
+  "intro__image--16",
+  "intro__image--17",
+  "intro__image--18",
+  "intro__image--19",
+  "intro__image--20",
+  "intro__image--21",
+  "intro__image--22",
+  "intro__image--23",
+  "intro__image--24"
 ];
 
 const obj = {curImg: 0};
@@ -43,7 +53,7 @@ const tween = TweenMax.to(obj, 0.5,
   }
 );
 
-const imagesScene = new ScrollMagic.Scene({triggerElement: ".intro__trigger", duration: "300%"})
+const imagesScene = new ScrollMagic.Scene({triggerElement: ".intro__trigger", duration: "500%"})
 .setTween(tween)
 .addTo(controller);
 
@@ -52,14 +62,6 @@ new ScrollMagic.Scene({triggerElement: ".intro__end"})
 .setClassToggle(".intro__media", "active")
 .addTo(controller);
 
-
-// Fading in elements once they are in the viewport
-const fadeInElements = document.getElementsByClassName('fade');
-for (var i=0; i<fadeInElements.length; i++) {
-  const fadeInScene = new ScrollMagic.Scene({triggerElement: fadeInElements[i], reverse: false, triggerHook: 1})
-  .setClassToggle(fadeInElements[i], 'fade--active')
-  .addTo(controller);
-}
 
 
 }

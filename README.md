@@ -1,11 +1,4 @@
-# [Doggo For Hire](https://www.doggoforhire.com/)
-A digital resume for an awesome dog named Birch.
-
 ![screenshot](screenshot.jpg "screenshot")
-
-## Awards
-* ["Most Loved" on One Page Love](https://onepagelove.com/doggo-for-hire) 🎉
-* ["Liked" by Stefan on Design Made In Germany](http://www.designmadeingermany.de/sites-we-like/stefan/) 🎉
 
 ## Development
 * `npm i` to install dependencies
